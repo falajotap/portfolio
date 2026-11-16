@@ -18,7 +18,7 @@ const img = (src = '', alt = '', o = {}) =>
 const tall = { ratio: '9/16', w: 1080, h: 1920 };
 
 export const site = {
-  name: 'Jota', handle: '@falajotap', title: 'PORTFÓLIO CRIATIVO',
+  name: 'Jota', handle: '@falajotap', title: 'PORTIFÓLIO CRIATIVO',
   coords: ['7°13\'31.4"S', '39°17\'30.9"W'],
   cover: img('about/perfil1.jpg', 'Imagem de capa', { ratio: '16/9' }),               // ex.: 'cover/capa.webp'
   about: {
