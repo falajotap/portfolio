@@ -22,6 +22,8 @@ function topo(seed = 1, n = 14) {
 const star = `<svg class="star" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 0l1.6 8.4L20 10l-8.4 1.6L10 20l-1.6-8.4L0 10l8.4-1.6z" fill="currentColor"/></svg>`;
 
 // Imagem configurável com reserva gráfica (nunca mostra imagem quebrada)
+
+
 function pic(c, cls = '') {
   const ph = `<div class="ph" aria-hidden="true">${topo(c.ratio.length + 2, 10)}${star}</div>`;
   const im = c.src ? `<img src="${BASE}assets/images/${esc(c.src)}" alt="${esc(c.alt)}" width="${c.w}" height="${c.h}" loading="lazy" decoding="async" style="object-fit:${c.fit};object-position:${c.pos}" onerror="this.remove()">` : '';
